@@ -1,0 +1,11 @@
+<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Burger">
+  <rect x="20" y="25" width="160" height="50" rx="25" fill="#f59e0b"/>
+  <circle cx="55" cy="40" r="4" fill="#fef3c7"/>
+  <circle cx="80" cy="36" r="4" fill="#fef3c7"/>
+  <circle cx="105" cy="42" r="4" fill="#fef3c7"/>
+  <circle cx="130" cy="36" r="4" fill="#fef3c7"/>
+  <rect x="25" y="68" width="150" height="10" rx="5" fill="#16a34a"/>
+  <rect x="30" y="78" width="140" height="22" rx="11" fill="#92400e"/>
+  <rect x="35" y="90" width="130" height="10" rx="5" fill="#f97316"/>
+  <rect x="20" y="98" width="160" height="30" rx="15" fill="#d97706"/>
+</svg>

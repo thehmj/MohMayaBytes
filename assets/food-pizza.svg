@@ -1,0 +1,9 @@
+<svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pizza slice">
+  <path d="M20 25 L180 70 L60 130 Z" fill="#fed7aa" stroke="#f97316" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M34 40 L168 74 L70 122 Z" fill="#fb923c" opacity="0.5"/>
+  <circle cx="80" cy="70" r="10" fill="#b91c1c"/>
+  <circle cx="110" cy="80" r="9" fill="#b91c1c"/>
+  <circle cx="60" cy="90" r="8" fill="#16a34a"/>
+  <circle cx="100" cy="105" r="7" fill="#0ea5e9"/>
+  <path d="M44 52 C70 48 110 56 140 70" stroke="#fef3c7" stroke-width="6" stroke-linecap="round"/>
+</svg>

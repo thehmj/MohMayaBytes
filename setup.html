@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moh Maya Bytes - Set Lucky Numbers</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero-header">
+      <div class="logo-banner">
+        <div class="logo-top">
+          <span class="logo-main">Moh Maya Bytes</span>
+        </div>
+        <div class="logo-bottom">
+          <span class="logo-sub">Chef Setup</span>
+        </div>
+        <svg class="logo-ribbon" viewBox="0 0 260 40" aria-hidden="true">
+          <path d="M10 10h240l-12 20H22L10 10Z" fill="#ea580c" />
+          <path d="M22 28h204l6-10H16l6 10Z" fill="#fed7aa" opacity="0.4" />
+        </svg>
+      </div>
+      <div class="hero-food hero-food-left">
+        <img src="assets/food-burger.svg" alt="Burger" />
+      </div>
+      <div class="hero-food hero-food-right">
+        <img src="assets/food-pizza.svg" alt="Pizza slice" />
+      </div>
+    </header>
+
+    <h1>Set Lucky Numbers</h1>
+    <p class="subtitle">
+      Enter 7 numbers between <span>100</span> and <span>199</span> to load the lucky draw.
+    </p>
+
+    <section class="panel">
+      <div class="panel-title">Lucky Menu Numbers</div>
+      <div class="inputs-grid">
+        <div class="input-item">
+          <label for="num1">Number 1</label>
+          <input id="num1" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num2">Number 2</label>
+          <input id="num2" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num3">Number 3</label>
+          <input id="num3" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num4">Number 4</label>
+          <input id="num4" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num5">Number 5</label>
+          <input id="num5" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num6">Number 6</label>
+          <input id="num6" type="number" min="100" max="199" />
+        </div>
+        <div class="input-item">
+          <label for="num7">Number 7</label>
+          <input id="num7" type="number" min="100" max="199" />
+        </div>
+      </div>
+    </section>
+
+    <section class="controls">
+      <button class="btn spin-cta" id="saveButton">Save Numbers</button>
+      <p id="message" class="message"></p>
+      <p class="range-label">
+        After saving, open <span>index.html</span> and press <span>Start Spinners</span>.
+      </p>
+      <p class="nav-link">
+        Ready to spin?
+        <a href="index.html">Go to Lucky Draw</a>
+      </p>
+    </section>
+
+    <section class="food-row">
+      <img src="assets/food-fries.svg" alt="Fries" class="food-illus" />
+      <img src="assets/food-noodles.svg" alt="Noodles" class="food-illus" />
+      <img src="assets/food-sundae.svg" alt="Ice cream sundae" class="food-illus" />
+    </section>
+  </main>
+
+  <script src="setup.js"></script>
+</body>
+</html>

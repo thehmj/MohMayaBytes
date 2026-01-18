@@ -1,0 +1,8 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Orange slice">
+  <circle cx="60" cy="60" r="50" fill="#f97316"/>
+  <circle cx="60" cy="60" r="40" fill="#fed7aa"/>
+  <path d="M60 20 L60 60 L100 60" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 20 L60 60 L30 30" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M20 60 L60 60 L30 90" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <path d="M100 60 L60 60 L90 90" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 200 170" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ice cream sundae">
+  <path d="M60 120 h80 l-10 30 H70 Z" fill="#c2410c"/>
+  <ellipse cx="100" cy="126" rx="50" ry="12" fill="#f97316"/>
+  <circle cx="80" cy="70" r="30" fill="#fef3c7"/>
+  <circle cx="120" cy="70" r="30" fill="#fde68a"/>
+  <circle cx="100" cy="50" r="26" fill="#fff7ed"/>
+  <path d="M70 86 C80 100 120 100 130 86" stroke="#7c2d12" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="100" cy="36" r="8" fill="#b91c1c"/>
+  <path d="M95 28 h10" stroke="#15803d" stroke-width="4" stroke-linecap="round"/>
+</svg>

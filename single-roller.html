@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moh Maya Bytes - Single Roller</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="hero-header">
+      <div class="logo-banner">
+        <div class="logo-top">
+          <span class="logo-main">Moh Maya Bytes</span>
+        </div>
+        <div class="logo-bottom">
+          <span class="logo-sub">Snack Roller</span>
+        </div>
+        <svg class="logo-ribbon" viewBox="0 0 260 40" aria-hidden="true">
+          <path d="M10 10h240l-12 20H22L10 10Z" fill="#ea580c" />
+          <path d="M22 28h204l6-10H16l6 10Z" fill="#fed7aa" opacity="0.4" />
+        </svg>
+      </div>
+      <div class="hero-food hero-food-left">
+        <img src="assets/food-burger.svg" alt="Burger" />
+      </div>
+      <div class="hero-food hero-food-right">
+        <img src="assets/food-pizza.svg" alt="Pizza slice" />
+      </div>
+    </header>
+
+    <h1>Guess the Roll</h1>
+    <p class="subtitle">
+      Enter a number between <span>1</span> and <span>99</span>, then roll to match it.
+    </p>
+
+    <section class="input-strip">
+      <label for="guessNumber" class="input-strip-label">Enter Your Lucky Number!</label>
+      <div class="input-strip-inner">
+        <input
+          id="guessNumber"
+          type="number"
+          min="1"
+          max="99"
+          placeholder="Enter number (1-99)"
+        />
+        <button class="btn input-strip-btn" id="guessSubmitButton" type="button">Submit</button>
+      </div>
+    </section>
+
+    <section class="machine-frame">
+      <div class="machine-top"></div>
+      <div class="machine-body">
+        <section class="rollers single-roller-wrap">
+          <div class="roller" id="singleRoller">
+            <div class="roller-label">Your Roll</div>
+            <div class="window">
+              <div class="numbers"></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="machine-bottom"></div>
+    </section>
+
+    <section class="controls">
+      <button class="btn spin-cta" id="playButton">Start Roll!</button>
+      <p id="singleMessage" class="message"></p>
+      <p class="nav-link">
+        Back to main draw?
+        <a href="index.html">Go to Lucky Draw</a>
+      </p>
+    </section>
+
+    <section class="food-row">
+      <img src="assets/food-fries.svg" alt="Fries" class="food-illus" />
+      <img src="assets/food-noodles.svg" alt="Noodles" class="food-illus" />
+      <img src="assets/food-sundae.svg" alt="Ice cream sundae" class="food-illus" />
+    </section>
+  </main>
+
+  <div id="confetti" class="confetti hidden"></div>
+  <audio id="singleSpinSound" src="spin-sound.mp3" preload="auto"></audio>
+
+  <script src="single-roller.js"></script>
+</body>
+</html>
